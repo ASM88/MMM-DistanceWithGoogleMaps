@@ -1,0 +1,30 @@
+.traffic-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.traffic-row > * {
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.traffic-wrapper {
+}
+
+.traffic-label {
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.traffic-label:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1b9";
+    padding-right: 1em;
+}
+
+.traffic-duration {
+    text-align: right;
+}
